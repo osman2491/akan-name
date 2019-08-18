@@ -1,12 +1,14 @@
-#portfolio
+###portfolio
+
 This is an application for my portfolio landing page, 19/08/2018
 By Osman Mohamed
-ReadmeImg background.jpeg
 
 ###Description
+
 This is application is called Portfolio landing page. THe main page(a birthday form)
 
-##Setup/Installation Requirements
+###Setup/Installation Requirements
+
 Make sure your computer has an editor you can use atom or Visual Studio(preferred), sublime text or notepad++
 You can view it using a browser such as chrome and mozilla firefox
 You can use githubs gh-pages to host the website on your computer
@@ -16,9 +18,11 @@ Known Bugs
 There are no known bugs for this web application
 
 ###Technologies Used
+
 HTML CSS javascript Visual Studio Code
 
 ###Support and contact details
+
 For more information call +254724912157 or Email me osman67239121@gmail.com
 
 License
