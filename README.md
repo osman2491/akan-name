@@ -1,13 +1,13 @@
-###portfolio
+## portfolio
 
-This is an application for my portfolio landing page, 19/08/2018
+This is an application for determining your akan name, landing page, 19/08/2018
 By Osman Mohamed
 
-###Description
+### Description
 
-This is application is called Portfolio landing page. THe main page(a birthday form)
+This is application is called akan name determinder landing page. THe main page(a birthday form)
 
-###Setup/Installation Requirements
+### Setup/Installation Requirements
 
 Make sure your computer has an editor you can use atom or Visual Studio(preferred), sublime text or notepad++
 You can view it using a browser such as chrome and mozilla firefox
@@ -17,11 +17,11 @@ Fork and enjoy There is no database or server setup for this code hence it shoul
 Known Bugs
 There are no known bugs for this web application
 
-###Technologies Used
+### Technologies Used
 
 HTML CSS javascript Visual Studio Code
 
-###Support and contact details
+### Support and contact details
 
 For more information call +254724912157 or Email me osman67239121@gmail.com
 
