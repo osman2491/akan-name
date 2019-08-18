@@ -1,5 +1,9 @@
 form {
     font-size: 25px;
+    background-color: bisque;
+    background-position: 50px,50px;
+    text-align: center;
+    position: center;
 }
 body {
     font-size: 13px;
@@ -9,4 +13,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     scroll-margin-block: 100%;
+}
+h1 {
+    text-align: center;
 }
