@@ -1,12 +1,15 @@
-function oska (dd, mm, yyyy, gender) {
-  
-    var cc = parseInt(yyyy.toString().substring(0,2)) + 1
-    console.log(cc)
+function oska () {
+
+    var dd = parseInt(document.getElementById('dd').value);
+    var mm = parseInt(document.getElementById('mm').value);
+    var yyyy = parseInt(document.getElementById('yyyy').value);
+    var gender = document.querySelector('input[name="gender"]:checked').value;
+
+    var cc = parseInt(yyyy.toString().substring(0,2)) + 1;
     
-    var yy = parseInt(yyyy.toString().substring(2,4))
-    console.log(yy)
+    var yy = parseInt(yyyy.toString().substring(2,4));
     
-    var d=(((cc/4)-2*cc-1) + ((5*yy/4)) + ((26*(mm+1)/10)) + dd ) % 7
+    var d=(((cc/4)-2*cc-1) + ((5*yy/4)) + ((26*(mm+1)/10)) + dd ) % 7;
     if(cc === 21){
       var workingD = Math.ceil(d);
     } else {
@@ -17,35 +20,35 @@ function oska (dd, mm, yyyy, gender) {
     
     if (gender === "male"){
       if(workingD === 7){
-        return "Kwasi";
+        alert("Kwasi");
       } else if(workingD === 1){
-        return "b";
+        alert("b");
       } else if(workingD === 2){
-        return "c";
+        alert("c");
       } else if(workingD === 3){
         alert("Kwaku");
       } else if(workingD === 4){
-        return "e";
+        alert("e");
       } else if(workingD === 5){
-        return "Kofi";
+        alert("Kofi");
       } else {
-        return "g";
+        alert("g");
       }
     } else{
       if(workingD === 7){
-        return "h";
+        alert("h");
       } else if(workingD === 1){
-        return "i";
+        alert("i");
       } else if(workingD === 2){
-        return "j";
+        alert("j");
       } else if(workingD === 3){
-        return "k";
+        alert("k");
       } else if(workingD === 4){
-        return "l";
+        alert("l");
       } else if(workingD === 5){
-        return "Afua";
+        alert("Afua");
       } else {
-        return "n";
+        alert("n");
       }
     }
     
