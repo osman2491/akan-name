@@ -38,7 +38,7 @@ function oska () {
       if(workingD === 7){
         alert("Akosua");
       } else if(workingD === 1){
-        alert("Adwoa");
+        alert("AdwOa");
       } else if(workingD === 2){
         alert("Abenaa");
       } else if(workingD === 3){
