@@ -22,33 +22,33 @@ function oska () {
       if(workingD === 7){
         alert("Kwasi");
       } else if(workingD === 1){
-        alert("b");
+        alert("Kwadwo");
       } else if(workingD === 2){
-        alert("c");
+        alert("kwabena");
       } else if(workingD === 3){
         alert("Kwaku");
       } else if(workingD === 4){
-        alert("e");
+        alert("Yaw");
       } else if(workingD === 5){
         alert("Kofi");
       } else {
-        alert("g");
+        alert("Kwame");
       }
     } else{
       if(workingD === 7){
-        alert("h");
+        alert("Akosua");
       } else if(workingD === 1){
-        alert("i");
+        alert("Adoa");
       } else if(workingD === 2){
-        alert("j");
+        alert("Abenaa");
       } else if(workingD === 3){
-        alert("k");
+        alert("Akua");
       } else if(workingD === 4){
-        alert("l");
+        alert("Yaa");
       } else if(workingD === 5){
         alert("Afua");
       } else {
-        alert("n");
+        alert("Ama");
       }
     }
     
